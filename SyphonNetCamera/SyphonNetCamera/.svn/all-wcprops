@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/9/trunk/SyphonNetCamera/SyphonNetCamera
+END
+Base64.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/SyphonNetCamera/SyphonNetCamera/Base64.m
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/SyphonNetCamera/SyphonNetCamera/main.m
+END
+NetCamClient.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/SyphonNetCamera/SyphonNetCamera/NetCamClient.m
+END
+SyphonNetCamera-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/SyphonNetCamera/SyphonNetCamera/SyphonNetCamera-Info.plist
+END
+SyphonNetCamera-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/SyphonNetCamera/SyphonNetCamera/SyphonNetCamera-Prefix.pch
+END
+SNCAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/SyphonNetCamera/SyphonNetCamera/SNCAppDelegate.h
+END
+SyphonSender.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/9/trunk/SyphonNetCamera/SyphonNetCamera/SyphonSender.h
+END
+turbojpeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/SyphonNetCamera/SyphonNetCamera/turbojpeg.h
+END
+SNCAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/SyphonNetCamera/SyphonNetCamera/SNCAppDelegate.m
+END
+Base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/SyphonNetCamera/SyphonNetCamera/Base64.h
+END
+NetCamClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6/trunk/SyphonNetCamera/SyphonNetCamera/NetCamClient.h
+END
+SyphonSender.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/9/trunk/SyphonNetCamera/SyphonNetCamera/SyphonSender.m
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/SyphonCamera/Syphon.framework/Versions/A/Headers
+END
+SyphonServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/SyphonCamera/Syphon.framework/Versions/A/Headers/SyphonServer.h
+END
+SyphonServerDirectory.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/SyphonCamera/Syphon.framework/Versions/A/Headers/SyphonServerDirectory.h
+END
+SyphonClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/SyphonCamera/Syphon.framework/Versions/A/Headers/SyphonClient.h
+END
+Syphon.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/SyphonCamera/Syphon.framework/Versions/A/Headers/Syphon.h
+END
+SyphonImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/SyphonCamera/Syphon.framework/Versions/A/Headers/SyphonImage.h
+END

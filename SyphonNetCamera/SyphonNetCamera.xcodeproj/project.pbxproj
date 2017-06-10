@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC33C9A915652907000B6F71 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC33C9A815652907000B6F71 /* Cocoa.framework */; };
+		CC33C9B315652907000B6F71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC33C9B115652907000B6F71 /* InfoPlist.strings */; };
+		CC33C9B515652907000B6F71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33C9B415652907000B6F71 /* main.m */; };
+		CC33C9B915652907000B6F71 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CC33C9B715652907000B6F71 /* Credits.rtf */; };
+		CC33C9BC15652907000B6F71 /* SNCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33C9BB15652907000B6F71 /* SNCAppDelegate.m */; };
+		CC33C9BF15652907000B6F71 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC33C9BD15652907000B6F71 /* MainMenu.xib */; };
+		CC33C9C615652A3F000B6F71 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC33C9C515652A3F000B6F71 /* OpenGL.framework */; };
+		CC33C9D415652B48000B6F71 /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC33C9D315652B48000B6F71 /* Syphon.framework */; };
+		CC33C9DA15652BF8000B6F71 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33C9D715652BF8000B6F71 /* Base64.m */; };
+		CC33C9DB15652BF8000B6F71 /* NetCamClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33C9D915652BF8000B6F71 /* NetCamClient.m */; };
+		CC33C9DF15652D0D000B6F71 /* SyphonSender.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33C9DE15652D0D000B6F71 /* SyphonSender.m */; };
+		CC33C9F915655BAB000B6F71 /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC33C9D315652B48000B6F71 /* Syphon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC33C9F815655BA3000B6F71 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CC33C9F915655BAB000B6F71 /* Syphon.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC33C9A415652907000B6F71 /* SyphonNetCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyphonNetCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC33C9A815652907000B6F71 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CC33C9AB15652907000B6F71 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CC33C9AC15652907000B6F71 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CC33C9AD15652907000B6F71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC33C9B015652907000B6F71 /* SyphonNetCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SyphonNetCamera-Info.plist"; sourceTree = "<group>"; };
+		CC33C9B215652907000B6F71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC33C9B415652907000B6F71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC33C9B615652907000B6F71 /* SyphonNetCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SyphonNetCamera-Prefix.pch"; sourceTree = "<group>"; };
+		CC33C9B815652907000B6F71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CC33C9BA15652907000B6F71 /* SNCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNCAppDelegate.h; sourceTree = "<group>"; };
+		CC33C9BB15652907000B6F71 /* SNCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNCAppDelegate.m; sourceTree = "<group>"; };
+		CC33C9BE15652907000B6F71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CC33C9C515652A3F000B6F71 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CC33C9D315652B48000B6F71 /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syphon.framework; sourceTree = "<group>"; };
+		CC33C9D615652BF8000B6F71 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		CC33C9D715652BF8000B6F71 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		CC33C9D815652BF8000B6F71 /* NetCamClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetCamClient.h; sourceTree = "<group>"; };
+		CC33C9D915652BF8000B6F71 /* NetCamClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetCamClient.m; sourceTree = "<group>"; };
+		CC33C9DD15652D0D000B6F71 /* SyphonSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyphonSender.h; sourceTree = "<group>"; };
+		CC33C9DE15652D0D000B6F71 /* SyphonSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyphonSender.m; sourceTree = "<group>"; };
+		CC8AC07315670411009195D5 /* turbojpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = turbojpeg.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC33C9A115652907000B6F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC33C9A915652907000B6F71 /* Cocoa.framework in Frameworks */,
+				CC33C9C615652A3F000B6F71 /* OpenGL.framework in Frameworks */,
+				CC33C9D415652B48000B6F71 /* Syphon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC33C99915652906000B6F71 = {
+			isa = PBXGroup;
+			children = (
+				CC33C9AE15652907000B6F71 /* SyphonNetCamera */,
+				CC33C9A715652907000B6F71 /* Frameworks */,
+				CC33C9A515652907000B6F71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC33C9A515652907000B6F71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC33C9A415652907000B6F71 /* SyphonNetCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC33C9A715652907000B6F71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCF4371915692EB3004FDA02 /* Packaged */,
+				CC33C9C515652A3F000B6F71 /* OpenGL.framework */,
+				CC33C9A815652907000B6F71 /* Cocoa.framework */,
+				CC33C9AA15652907000B6F71 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC33C9AA15652907000B6F71 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC33C9AB15652907000B6F71 /* AppKit.framework */,
+				CC33C9AC15652907000B6F71 /* CoreData.framework */,
+				CC33C9AD15652907000B6F71 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CC33C9AE15652907000B6F71 /* SyphonNetCamera */ = {
+			isa = PBXGroup;
+			children = (
+				CC8ABFD41566F8AC009195D5 /* libjpeg-turbo */,
+				CC33C9D515652BC2000B6F71 /* NetCam */,
+				CC33C9BA15652907000B6F71 /* SNCAppDelegate.h */,
+				CC33C9BB15652907000B6F71 /* SNCAppDelegate.m */,
+				CC33C9DD15652D0D000B6F71 /* SyphonSender.h */,
+				CC33C9DE15652D0D000B6F71 /* SyphonSender.m */,
+				CC33C9BD15652907000B6F71 /* MainMenu.xib */,
+				CC33C9AF15652907000B6F71 /* Supporting Files */,
+			);
+			path = SyphonNetCamera;
+			sourceTree = "<group>";
+		};
+		CC33C9AF15652907000B6F71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC33C9B015652907000B6F71 /* SyphonNetCamera-Info.plist */,
+				CC33C9B115652907000B6F71 /* InfoPlist.strings */,
+				CC33C9B415652907000B6F71 /* main.m */,
+				CC33C9B615652907000B6F71 /* SyphonNetCamera-Prefix.pch */,
+				CC33C9B715652907000B6F71 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC33C9D515652BC2000B6F71 /* NetCam */ = {
+			isa = PBXGroup;
+			children = (
+				CC33C9D615652BF8000B6F71 /* Base64.h */,
+				CC33C9D715652BF8000B6F71 /* Base64.m */,
+				CC33C9D815652BF8000B6F71 /* NetCamClient.h */,
+				CC33C9D915652BF8000B6F71 /* NetCamClient.m */,
+			);
+			name = NetCam;
+			sourceTree = "<group>";
+		};
+		CC8ABFD41566F8AC009195D5 /* libjpeg-turbo */ = {
+			isa = PBXGroup;
+			children = (
+				CC8AC07315670411009195D5 /* turbojpeg.h */,
+			);
+			name = "libjpeg-turbo";
+			sourceTree = "<group>";
+		};
+		CCF4371915692EB3004FDA02 /* Packaged */ = {
+			isa = PBXGroup;
+			children = (
+				CC33C9D315652B48000B6F71 /* Syphon.framework */,
+			);
+			name = Packaged;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC33C9A315652907000B6F71 /* SyphonNetCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC33C9C215652907000B6F71 /* Build configuration list for PBXNativeTarget "SyphonNetCamera" */;
+			buildPhases = (
+				CC33C9A015652907000B6F71 /* Sources */,
+				CC33C9A115652907000B6F71 /* Frameworks */,
+				CC33C9A215652907000B6F71 /* Resources */,
+				CC33C9F815655BA3000B6F71 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyphonNetCamera;
+			productName = SyphonNetCamera;
+			productReference = CC33C9A415652907000B6F71 /* SyphonNetCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC33C99B15652906000B6F71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CC33C99E15652906000B6F71 /* Build configuration list for PBXProject "SyphonNetCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC33C99915652906000B6F71;
+			productRefGroup = CC33C9A515652907000B6F71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC33C9A315652907000B6F71 /* SyphonNetCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC33C9A215652907000B6F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC33C9B315652907000B6F71 /* InfoPlist.strings in Resources */,
+				CC33C9B915652907000B6F71 /* Credits.rtf in Resources */,
+				CC33C9BF15652907000B6F71 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC33C9A015652907000B6F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC33C9B515652907000B6F71 /* main.m in Sources */,
+				CC33C9BC15652907000B6F71 /* SNCAppDelegate.m in Sources */,
+				CC33C9DA15652BF8000B6F71 /* Base64.m in Sources */,
+				CC33C9DB15652BF8000B6F71 /* NetCamClient.m in Sources */,
+				CC33C9DF15652D0D000B6F71 /* SyphonSender.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC33C9B115652907000B6F71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC33C9B215652907000B6F71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC33C9B715652907000B6F71 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC33C9B815652907000B6F71 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CC33C9BD15652907000B6F71 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC33C9BE15652907000B6F71 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC33C9C015652907000B6F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-L$(SRCROOT)/lib",
+					"-lturbojpeg",
+					"-lm",
+				);
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		CC33C9C115652907000B6F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_LDFLAGS = (
+					"-L$(SRCROOT)/lib",
+					"-lturbojpeg",
+					"-lm",
+				);
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		CC33C9C315652907000B6F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/lib",
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyphonNetCamera/SyphonNetCamera-Prefix.pch";
+				INFOPLIST_FILE = "SyphonNetCamera/SyphonNetCamera-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC33C9C415652907000B6F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/lib",
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyphonNetCamera/SyphonNetCamera-Prefix.pch";
+				INFOPLIST_FILE = "SyphonNetCamera/SyphonNetCamera-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC33C99E15652906000B6F71 /* Build configuration list for PBXProject "SyphonNetCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC33C9C015652907000B6F71 /* Debug */,
+				CC33C9C115652907000B6F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC33C9C215652907000B6F71 /* Build configuration list for PBXNativeTarget "SyphonNetCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC33C9C315652907000B6F71 /* Debug */,
+				CC33C9C415652907000B6F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC33C99B15652906000B6F71 /* Project object */;
+}

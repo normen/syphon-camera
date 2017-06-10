@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC34466D15684ADB003CABFC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC34466C15684ADB003CABFC /* Cocoa.framework */; };
+		CC34467715684ADB003CABFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC34467515684ADB003CABFC /* InfoPlist.strings */; };
+		CC34467915684ADB003CABFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34467815684ADB003CABFC /* main.m */; };
+		CC34467D15684ADB003CABFC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CC34467B15684ADB003CABFC /* Credits.rtf */; };
+		CC34468015684ADB003CABFC /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34467F15684ADB003CABFC /* SCAppDelegate.m */; };
+		CC34468315684ADC003CABFC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC34468115684ADC003CABFC /* MainMenu.xib */; };
+		CC34468E15684B31003CABFC /* SyphonSender.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34468D15684B31003CABFC /* SyphonSender.m */; };
+		CC34469015684C0A003CABFC /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC34468F15684C0A003CABFC /* QTKit.framework */; };
+		CC34469215684C1B003CABFC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC34469115684C1B003CABFC /* OpenGL.framework */; };
+		CC3446981568540D003CABFC /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3446971568540D003CABFC /* Syphon.framework */; };
+		CC34469A15685424003CABFC /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC3446971568540D003CABFC /* Syphon.framework */; };
+		CC3446A1156856FA003CABFC /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3446A0156856FA003CABFC /* Quartz.framework */; };
+		CCF4371515691612004FDA02 /* QTKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF4371415691612004FDA02 /* QTKitHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC34469915685416003CABFC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CC34469A15685424003CABFC /* Syphon.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC34466815684ADB003CABFC /* SyphonCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyphonCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC34466C15684ADB003CABFC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CC34466F15684ADB003CABFC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CC34467015684ADB003CABFC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CC34467115684ADB003CABFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC34467415684ADB003CABFC /* SyphonCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SyphonCamera-Info.plist"; sourceTree = "<group>"; };
+		CC34467615684ADB003CABFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC34467815684ADB003CABFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC34467A15684ADB003CABFC /* SyphonCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SyphonCamera-Prefix.pch"; sourceTree = "<group>"; };
+		CC34467C15684ADB003CABFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CC34467E15684ADB003CABFC /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		CC34467F15684ADB003CABFC /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		CC34468215684ADC003CABFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CC34468C15684B31003CABFC /* SyphonSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyphonSender.h; sourceTree = "<group>"; };
+		CC34468D15684B31003CABFC /* SyphonSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyphonSender.m; sourceTree = "<group>"; };
+		CC34468F15684C0A003CABFC /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		CC34469115684C1B003CABFC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CC3446971568540D003CABFC /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syphon.framework; sourceTree = "<group>"; };
+		CC3446A0156856FA003CABFC /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		CCF4371315691612004FDA02 /* QTKitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTKitHelper.h; sourceTree = "<group>"; };
+		CCF4371415691612004FDA02 /* QTKitHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTKitHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC34466515684ADB003CABFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34466D15684ADB003CABFC /* Cocoa.framework in Frameworks */,
+				CC34469015684C0A003CABFC /* QTKit.framework in Frameworks */,
+				CC34469215684C1B003CABFC /* OpenGL.framework in Frameworks */,
+				CC3446981568540D003CABFC /* Syphon.framework in Frameworks */,
+				CC3446A1156856FA003CABFC /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC34465D15684ADA003CABFC = {
+			isa = PBXGroup;
+			children = (
+				CC34467215684ADB003CABFC /* SyphonCamera */,
+				CC34466B15684ADB003CABFC /* Frameworks */,
+				CC34466915684ADB003CABFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC34466915684ADB003CABFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC34466815684ADB003CABFC /* SyphonCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC34466B15684ADB003CABFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCF4371A15692ED3004FDA02 /* Packaged */,
+				CC3446A0156856FA003CABFC /* Quartz.framework */,
+				CC34469115684C1B003CABFC /* OpenGL.framework */,
+				CC34468F15684C0A003CABFC /* QTKit.framework */,
+				CC34466C15684ADB003CABFC /* Cocoa.framework */,
+				CC34466E15684ADB003CABFC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC34466E15684ADB003CABFC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC34466F15684ADB003CABFC /* AppKit.framework */,
+				CC34467015684ADB003CABFC /* CoreData.framework */,
+				CC34467115684ADB003CABFC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CC34467215684ADB003CABFC /* SyphonCamera */ = {
+			isa = PBXGroup;
+			children = (
+				CCF4371815692DFC004FDA02 /* QTKit */,
+				CC34467E15684ADB003CABFC /* SCAppDelegate.h */,
+				CC34467F15684ADB003CABFC /* SCAppDelegate.m */,
+				CC34468C15684B31003CABFC /* SyphonSender.h */,
+				CC34468D15684B31003CABFC /* SyphonSender.m */,
+				CC34468115684ADC003CABFC /* MainMenu.xib */,
+				CC34467315684ADB003CABFC /* Supporting Files */,
+			);
+			path = SyphonCamera;
+			sourceTree = "<group>";
+		};
+		CC34467315684ADB003CABFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC34467415684ADB003CABFC /* SyphonCamera-Info.plist */,
+				CC34467515684ADB003CABFC /* InfoPlist.strings */,
+				CC34467815684ADB003CABFC /* main.m */,
+				CC34467A15684ADB003CABFC /* SyphonCamera-Prefix.pch */,
+				CC34467B15684ADB003CABFC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCF4371815692DFC004FDA02 /* QTKit */ = {
+			isa = PBXGroup;
+			children = (
+				CCF4371315691612004FDA02 /* QTKitHelper.h */,
+				CCF4371415691612004FDA02 /* QTKitHelper.m */,
+			);
+			name = QTKit;
+			sourceTree = "<group>";
+		};
+		CCF4371A15692ED3004FDA02 /* Packaged */ = {
+			isa = PBXGroup;
+			children = (
+				CC3446971568540D003CABFC /* Syphon.framework */,
+			);
+			name = Packaged;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC34466715684ADB003CABFC /* SyphonCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC34468615684ADC003CABFC /* Build configuration list for PBXNativeTarget "SyphonCamera" */;
+			buildPhases = (
+				CC34466415684ADB003CABFC /* Sources */,
+				CC34466515684ADB003CABFC /* Frameworks */,
+				CC34466615684ADB003CABFC /* Resources */,
+				CC34469915685416003CABFC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyphonCamera;
+			productName = SyphonCamera;
+			productReference = CC34466815684ADB003CABFC /* SyphonCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC34465F15684ADA003CABFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CC34466215684ADB003CABFC /* Build configuration list for PBXProject "SyphonCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC34465D15684ADA003CABFC;
+			productRefGroup = CC34466915684ADB003CABFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC34466715684ADB003CABFC /* SyphonCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC34466615684ADB003CABFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34467715684ADB003CABFC /* InfoPlist.strings in Resources */,
+				CC34467D15684ADB003CABFC /* Credits.rtf in Resources */,
+				CC34468315684ADC003CABFC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC34466415684ADB003CABFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34467915684ADB003CABFC /* main.m in Sources */,
+				CC34468015684ADB003CABFC /* SCAppDelegate.m in Sources */,
+				CC34468E15684B31003CABFC /* SyphonSender.m in Sources */,
+				CCF4371515691612004FDA02 /* QTKitHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC34467515684ADB003CABFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC34467615684ADB003CABFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC34467B15684ADB003CABFC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC34467C15684ADB003CABFC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CC34468115684ADC003CABFC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC34468215684ADC003CABFC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC34468415684ADC003CABFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC34468515684ADC003CABFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC34468715684ADC003CABFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyphonCamera/SyphonCamera-Prefix.pch";
+				INFOPLIST_FILE = "SyphonCamera/SyphonCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC34468815684ADC003CABFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyphonCamera/SyphonCamera-Prefix.pch";
+				INFOPLIST_FILE = "SyphonCamera/SyphonCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC34466215684ADB003CABFC /* Build configuration list for PBXProject "SyphonCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC34468415684ADC003CABFC /* Debug */,
+				CC34468515684ADC003CABFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC34468615684ADC003CABFC /* Build configuration list for PBXNativeTarget "SyphonCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC34468715684ADC003CABFC /* Debug */,
+				CC34468815684ADC003CABFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC34465F15684ADA003CABFC /* Project object */;
+}
