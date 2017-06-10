@@ -1,40 +1,0 @@
-10
-
-dir
-9
-http://syphon-camera.googlecode.com/svn/trunk/SyphonNetCamera
-http://syphon-camera.googlecode.com/svn
-
-
-
-2012-06-02T13:39:49.703556Z
-9
-normen667
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4d62856e-876d-231e-676b-023126e86255
-
-SyphonNetCamera
-dir
-
-lib
-dir
-
-SyphonNetCamera.xcodeproj
-dir
-
-Syphon.framework
-dir
-
